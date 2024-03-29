@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   avatarUrl: "/avatar.webp",
   personalWebsiteUrl: "https://brunalos.com",
   contact: {
-    email: "brunalos17@gmail.com",
+    email: "hey@brunalos.com",
     tel: "",
     social: [
       {
