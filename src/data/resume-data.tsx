@@ -55,6 +55,7 @@ export const RESUME_DATA = {
       title: "Research Assistant",
       start: "2019",
       end: "2023",
+      link: "",
       description:
         "Overseeing long-term research projects. Presenting research findings at national and international congresses and seminars. Supervising undergraduate research projects. Data analysis and visualization using Python and R. Collaborating effectively in team environments for successful project execution.",
     },
@@ -64,6 +65,7 @@ export const RESUME_DATA = {
       title: "Academic Researcher",
       start: "2016",
       end: "2019",
+      link: "",
       description:
         "Leading long-term research projects, including project development planning. Designing and implementing experimental protocols. Conducting statistical analysis of data using SPSS. Compiling reports for funding agencies to communicate project results. Presenting research outcomes at national and international conferences.",
     },
