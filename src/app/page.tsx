@@ -16,11 +16,11 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-white print:space-y-6">
+    <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16 bg-gradient-to-br from-indigo-50">
+      <section className="mx-auto w-full max-w-2xl space-y-8 print:space-y-6">
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
-            <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
+            <h1 className="text-2xl font-bold text-violet-600">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
@@ -38,7 +38,7 @@ export default function Page() {
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
-                  variant="outline"
+                  variant="default"
                   size="icon"
                   asChild
                 >
@@ -50,11 +50,11 @@ export default function Page() {
               {RESUME_DATA.contact.tel ? (
                 <Button
                   className="size-8"
-                  variant="outline"
+                  variant="default"
                   size="icon"
                   asChild
                 >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank">
                     <PhoneIcon className="size-4" />
                   </a>
                 </Button>
@@ -63,11 +63,11 @@ export default function Page() {
                 <Button
                   key={social.name}
                   className="size-8"
-                  variant="outline"
+                  variant="default"
                   size="icon"
                   asChild
                 >
-                  <a href={social.url}>
+                  <a href={social.url} target="_blank">
                     <social.icon className="size-4" />
                   </a>
                 </Button>
@@ -94,7 +94,7 @@ export default function Page() {
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="text-pretty text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -114,7 +114,7 @@ export default function Page() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs"
+                            className="align-middle text-xs bg-gray-200 hover:bg-gray-200"
                             key={badge}
                           >
                             {badge}
@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-[13px]">
                   {work.description}
                 </CardContent>
               </Card>

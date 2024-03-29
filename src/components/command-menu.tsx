@@ -44,7 +44,7 @@ export const CommandMenu = ({ links }: Props) => {
       </p>
       <Button
         onClick={() => setOpen((open) => !open)}
-        variant="outline"
+        variant="default"
         size="icon"
         className="fixed bottom-4 right-4 flex rounded-full shadow-2xl print:hidden xl:hidden"
       >

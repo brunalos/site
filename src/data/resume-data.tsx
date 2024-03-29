@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, ResearchGate } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Bruna Los",
@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Data Scientist | Data Analyst",
   summary:
     "I am a former researcher transitioning to a data scientist. I have experience in statistical analysis, including descriptive statistics, hypothesis testing, and linear regression, as well as data analysis and visualization using Python and R. I have competence in libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, tidyverse, dplyr, ggplot2.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/27739711?v=4",
+  avatarUrl: "/avatar.webp",
   personalWebsiteUrl: "https://brunalos.com",
   contact: {
     email: "brunalos17@gmail.com",
@@ -24,6 +24,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/brunalos/",
         icon: LinkedInIcon,
+      },
+      {
+        name: "ResearchGate",
+        url: "https://www.researchgate.net/profile/Bruna-Los",
+        icon: ResearchGate,
       },
      
     ],
