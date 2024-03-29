@@ -9,7 +9,7 @@ export const RESUME_DATA = {
     "Data Scientist | Data Analyst",
   summary:
     "I am a former researcher transitioning to a data scientist. I have experience in statistical analysis, including descriptive statistics, hypothesis testing, and linear regression, as well as data analysis and visualization using Python and R. I have competence in libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, tidyverse, dplyr, ggplot2.",
-  avatarUrl: "/avatar.webp",
+  avatarUrl: "/avatar.png",
   personalWebsiteUrl: "https://brunalos.com",
   contact: {
     email: "hey@brunalos.com",
