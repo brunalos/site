@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Data Scientist | Data Analyst",
   summary:
-    "Data Scientist with a strong analytical background. In my previous role as a researcher, I conducted detailed analyses of genomic and clinical data using various analytical tools.",
+    "I am a former researcher transitioning to a data scientist. I have experience in statistical analysis, including descriptive statistics, hypothesis testing, and linear regression, as well as data analysis and visualization using Python and R. I have competence in libraries such as pandas, numpy, matplotlib, seaborn, scikit-learn, tidyverse, dplyr, ggplot2.",
   avatarUrl: "https://avatars.githubusercontent.com/u/27739711?v=4",
   personalWebsiteUrl: "https://brunalos.com",
   contact: {
