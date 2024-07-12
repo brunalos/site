@@ -36,7 +36,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Freie Universität Berlin | Max Planck Institute for Molecular Genetics",
-      degree: "Doctoral Degree: Biochemistry",
+      degree: "Doctor of Natural Sciences: Biochemistry",
       start: "2019",
       end: "2023",
     },
@@ -61,8 +61,14 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2023",
       link: "",
-      description:
-        "Overseeing long-term research projects. Presenting research findings at national and international congresses and seminars. Supervising undergraduate research projects. Data analysis and visualization using Python and R. Collaborating effectively in team environments for successful project execution.",
+      description: `
+        - Led long-term research projects, overseeing planning, execution, and achievement of project objectives within specified timelines.
+        - Analyzed high-dimensional data (over 65,000 data points) using Python and R.
+        - Presented research findings in multiple formats to audiences of up to 50 people, earning one award for best presentation.
+        - Mentored junior team members, offering technical guidance to ensure appropriate experimental design and accurate data analysis.
+        - Published 2 scientific papers in high-impact journals.
+        - Featured research project in the Berlin newspaper Tagesspiegel.
+      `,
     },
     {
       company: "Universidade de São Paulo",
@@ -71,18 +77,29 @@ export const RESUME_DATA = {
       start: "2016",
       end: "2019",
       link: "",
-      description:
-        "Leading long-term research projects, including project development planning. Designing and implementing experimental protocols. Conducting statistical analysis of data using SPSS. Compiling reports for funding agencies to communicate project results. Presenting research outcomes at national and international conferences.",
-    },
-
+      description: `
+        - Designed and implemented experimental protocols, ensuring precise data collection and analysis to support research objectives effectively.
+        - Conducted detailed statistical analysis of clinical and genomic data using SPSS.
+        - Compiled reports to communicate project results for funding agencies.
+        - Presented research outcomes at national and international conferences, earning one award for best presentation.
+        - Collaborated effectively with colleagues, contributing to the publication of 5 papers in scientific journals.
+      `,
+    }
   ],
   skills: [
     "Statistical Analysis",
     "Data Analysis",
+    "Data Visualization",
     "Machine Learning",
     "Python",
     "R",
     "SQL",
+    "Jupyter notebook",
+    "RStudio",
+    "MySQL",
+    "Visual Studio Code",
+    "Git",
+    "GitHub"
   ],
   projects: [
     {
@@ -98,7 +115,7 @@ export const RESUME_DATA = {
         "scikit-learn",
         "xgboost",
       ],
-      description: "Predicting participants dropout rates in vaccine clinical trials using machine learning.",
+      description: "Predicting participants dropout rates in vaccine clinical trials using machine learning. Deployed on Streamlit.",
       link: {
         href: "https://github.com/brunalos/clinical-trials-ml",
       },
